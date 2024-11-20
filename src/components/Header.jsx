@@ -4,7 +4,7 @@ import shenk from '../assets/shenk.png'
 
 const Navbar = () => {
   return (
-    <nav className="bg-yellow-600 p-4 sticky top-0 px-4 py-6 space-x-3 z-20 backdrop-blur-lg">
+    <nav className="bg-yellow-700 p-4 sticky top-0 px-4 py-2 space-x-3 z-20 backdrop-blur-lg">
       <div className="flex justify-between items-center">
         <a className="" href="#" target="_blank" rel="">
           <img src={shenk} className="w-42 h-20 border-x-white" />
@@ -16,9 +16,9 @@ const Navbar = () => {
 
 
         {/* Navigation Links */}
-        <ul className="flex space-x-10 text-white text-lg items-end ">
+        <ul className="flex   sm:space-x-5 text-white text-lg items-end lg:space-x-14">
           <li>
-            <a href="#" className="hover:text-gray-300">Home</a>
+            <a href="#" className="hover:text-gray-300  ">Home</a>
           </li>
           <li>
             <a href="#About" className="hover:text-gray-300">About Us</a>

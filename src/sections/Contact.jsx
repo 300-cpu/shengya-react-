@@ -76,16 +76,18 @@ const Contact = () => {
 
                     </p>
 
-                    <div className="flex justify-between items-center sm:w-[400px] pt-2 text-xl gap-2">
+                    <div className="flex justify-between items-center sm:w-[400px] pt-2 text-xl gap-3">
                         <a href="https://x.com/ShengyaMac46712?t=cM-K8AeJ55RmeZSK-nmWXA&s=09" target="_blank" rel="">
                             <img src={twitter} className="w-10 h-10 border-x-white" />
                         </a>
                         <a href="https://www.tiktok.com/@shengya_machinery?_t=8quvZQ50aft&_r=1" target="_blank" rel="">
                             <img src={ticktok} className="w-18 h-14 border-x-white " />
                         </a>
-                        <a href="https://www.instagram.com/shengya_machinery/profilecard/?igsh=azk0dnV1aXg1ZzAx" target="_blank" rel="">
-                            <img src={instagramnew} className="w-10 h-10  border-x-white" />
-                        </a>
+                        <div className="pr-7">
+                            <a href="https://www.instagram.com/shengya_machinery/profilecard/?igsh=azk0dnV1aXg1ZzAx" target="_blank" rel="">
+                                <img src={instagramnew} className="w-10 h-10   border-x-white" />
+                            </a>
+                        </div>
                         <a href="https://www.facebook.com/61553855860762/" target="_blank" rel="">
                             <img src={facebook} className="w-6 h-10 border-x-white" />
                         </a>
