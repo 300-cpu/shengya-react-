@@ -3,6 +3,8 @@ import img3 from '../assets/img3.png'
 import img4 from '../assets/img4.png'
 import img5 from '../assets/img5.png'
 import img6 from '../assets/img6.png'
+import batch from '../assets/batch.png'
+import mixer from '../assets/mixer.png'
 import { MdCarpenter } from "react-icons/md";
 import { GiDominoTiles } from "react-icons/gi";
 import { FaHouseUser } from "react-icons/fa";
@@ -46,6 +48,21 @@ export const chooseus = [
     para: "The QT4-30 Small Hydraulic Concrete Block Machine features a sturdy and compact design, making it suitable for both small-scale and medium-scale construction projects. It is equipped with a hydraulic system that enables the machine to exert substantial pressure on the raw materials, resulting in the production of durable and well-formed concrete blocks and interlocking bricks..",
     label: 'CHAT WITH OUR AGENT'
   },
+  {
+    image: batch,
+    heading: "BATCHING PLANT",
+    para: "HZS35 Concrete Batching Plant refers to the concrete plant that adopts JS750 twin-shaft mixer. It produces 0.75 cubic meter of concrete mix per batch. At the same time, this batching plant transports aggregates skip hoists, which is benefit to reduce footprint and enhance land utilization. The HZS35 is equipped with PLD1200 aggregate bin. Its work platform adopts an all-steel structure; the discharge height can be customized according to the production requirements of concrete.",
+    label: 'CHAT WITH OUR AGENT'
+  },
+  {
+    image: mixer,
+    heading: "BATCHING PLANT",
+    para: "HZS35 Concrete Batching Plant refers to the concrete plant that adopts JS750 twin-shaft mixer. It produces 0.75 cubic meter of concrete mix per batch. At the same time, this batching plant transports aggregates skip hoists, which is benefit to reduce footprint and enhance land utilization. The HZS35 is equipped with PLD1200 aggregate bin. Its work platform adopts an all-steel structure; the discharge height can be customized according to the production requirements of concrete.",
+    label: 'CHAT WITH OUR AGENT'
+  },
+
+
+
 ];
 
 

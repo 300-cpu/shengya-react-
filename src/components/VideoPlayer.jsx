@@ -17,7 +17,7 @@ function videoPlayer() {
          gap-10 bg-cover bg-center bg-slate-900'   >
 
 
-        <h3 className='text-blue-800 font-bold text-5xl sm:items-center text-center '>PRODUCT INTRODUCTION VIDEO </h3>
+        <h3 className='text-blue-900 font-bold text-5xl sm:items-center text-center '>PRODUCT INTRODUCTION VIDEO </h3>
 
         <ReactPlayer controls={true} playing={false} url={video} height="700px" width="" style={{
 
